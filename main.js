@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".hide").hide();
+
+    $(".marker-france").click(function(){
+        $(".hide").hide();
+        $(".france-txt").fadeToggle(2000);
+    });
+    $(".marker-usa").click(function(){
+        $(".hide").hide();
+        $(".usa-txt").fadeToggle(2000);
+    });
+    $(".marker-brazil").click(function(){
+        $(".hide").hide();
+        $(".brazil-txt").fadeToggle(2000);
+    });
+    $(".marker-australia").click(function(){
+        $(".hide").hide();
+        $(".australia-txt").fadeToggle(2000);
+    });
+  });
